@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" width="512" height="512">
+<defs>
+  <radialGradient id="gCabeca" cx="0.4" cy="0.35" r="0.75">
+    <stop offset="0" stop-color="#FFF04A"/><stop offset="0.6" stop-color="#FFD91A"/><stop offset="1" stop-color="#F5BD00"/>
+  </radialGradient>
+  <radialGradient id="gIris" cx="0.4" cy="0.35" r="0.8">
+    <stop offset="0" stop-color="#C98A2B"/><stop offset="1" stop-color="#5B300F"/>
+  </radialGradient>
+  <linearGradient id="gFundo" x1="0" y1="0" x2="0.4" y2="1">
+    <stop offset="0" stop-color="#FFC63D"/><stop offset="1" stop-color="#F59E14"/>
+  </linearGradient>
+  <linearGradient id="gTela" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#14304F"/><stop offset="1" stop-color="#0A1A2E"/>
+  </linearGradient>
+  <linearGradient id="gVidro" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#E8F6FF"/><stop offset="1" stop-color="#9FD3F2"/>
+  </linearGradient>
+  <linearGradient id="gColete" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#FFD400"/><stop offset="0.5" stop-color="#FFE23A"/><stop offset="1" stop-color="#F5C400"/>
+  </linearGradient>
+</defs>
+
+<rect x="6" y="6" width="500" height="500" rx="112" fill="url(#gFundo)"/>
+<rect x="6" y="6" width="500" height="250" rx="112" fill="#FFFFFF" opacity="0.10"/>
+<!-- ombros / colete -->
+<path d="M70 512 C78 452 150 430 256 430 C362 430 434 452 442 512 Z" fill="url(#gColete)"/>
+<path d="M150 440 L196 512 L158 512 L118 452 Z" fill="#C9CDD2"/>
+<path d="M362 440 L316 512 L354 512 L394 452 Z" fill="#C9CDD2"/>
+<path d="M256 432 L256 512" stroke="#C9A200" stroke-width="5"/>
+<path d="M214 432 L256 478 L298 432" fill="#2B1A10"/>
+<rect x="214" y="370" width="78" height="80" rx="18" fill="#2B1A10"/>
+<!-- cabeça (reduzida p/ caber) -->
+<g transform="translate(22 4) scale(0.87)"><g >
+  <!-- fone de ouvido: lado esquerdo (atrás da cabeça) -->
+  <ellipse cx="80" cy="290" rx="30" ry="66" fill="#2E1A0E"/>
+  <ellipse cx="92" cy="290" rx="17" ry="46" fill="#F6C400"/>
+  <ellipse cx="94" cy="290" rx="9" ry="30" fill="#2E1A0E"/>
+  <!-- cabeça em gota -->
+  <path d="M272 40 C288 40 298 68 308 98 C392 120 448 192 448 284 C448 386 366 446 256 446 C146 446 64 386 64 284 C64 192 120 120 204 98 C236 90 254 40 272 40 Z"
+        fill="url(#gCabeca)" stroke="#E2A900" stroke-width="4" stroke-linejoin="round"/>
+  <!-- brilho -->
+  <path d="M126 250 C130 190 168 140 224 118" fill="none" stroke="#FFF7A8" stroke-width="16" stroke-linecap="round" opacity="0.65"/>
+  <ellipse cx="288" cy="78" rx="9" ry="16" fill="#FFF7A8" opacity="0.6" transform="rotate(14 288 78)"/>
+  <!-- bochechas -->
+  <ellipse cx="148" cy="346" rx="30" ry="18" fill="#FF9A3C" opacity="0.28"/>
+  <ellipse cx="372" cy="346" rx="30" ry="18" fill="#FF9A3C" opacity="0.28"/>
+  <!-- olho esquerdo (aberto) -->
+  <path d="M142 196 Q184 166 232 188" fill="none" stroke="#3B2112" stroke-width="15" stroke-linecap="round"/>
+  <ellipse cx="190" cy="258" rx="48" ry="54" fill="#FFFFFF" stroke="#3B2112" stroke-width="4"/>
+  <circle cx="198" cy="262" r="33" fill="url(#gIris)"/>
+  <circle cx="198" cy="262" r="17" fill="#1E0F06"/>
+  <circle cx="211" cy="247" r="9" fill="#FFFFFF"/>
+  <circle cx="186" cy="278" r="4.5" fill="#FFFFFF" opacity="0.8"/>
+  <!-- olho direito (piscando) -->
+  <path d="M300 186 Q340 158 384 188" fill="none" stroke="#3B2112" stroke-width="15" stroke-linecap="round"/>
+  <path d="M304 262 Q342 224 384 258" fill="none" stroke="#3B2112" stroke-width="14" stroke-linecap="round"/>
+  <!-- boca -->
+  <path d="M170 322 Q256 338 342 322 Q336 408 256 414 Q176 408 170 322 Z" fill="#7C1414"/>
+  <path d="M172 324 Q256 340 340 324 L338 346 Q256 362 174 346 Z" fill="#FFFFFF"/>
+  <ellipse cx="256" cy="397" rx="46" ry="17" fill="#E4474C"/>
+  <path d="M170 322 Q256 338 342 322 Q336 408 256 414 Q176 408 170 322 Z" fill="none" stroke="#5A0E0E" stroke-width="5" stroke-linejoin="round"/>
+  <!-- fone de ouvido: lado direito (à frente) + microfone -->
+  <ellipse cx="438" cy="290" rx="30" ry="66" fill="#2E1A0E"/>
+  <ellipse cx="428" cy="290" rx="19" ry="48" fill="#F6C400"/>
+  <ellipse cx="426" cy="290" rx="10" ry="32" fill="#2E1A0E"/>
+</g>
+</g>
+<!-- lupa com documento -->
+<g>
+  <path d="M418 434 L452 468" stroke="#2E1A0E" stroke-width="28" stroke-linecap="round"/>
+  <path d="M418 434 L452 468" stroke="#6B4A2B" stroke-width="13" stroke-linecap="round"/>
+  <circle cx="382" cy="398" r="52" fill="url(#gVidro)" stroke="#2E1A0E" stroke-width="16"/>
+  <g transform="translate(382 398) scale(0.82)">
+    <path d="M-24 -34 H12 L28 -18 V34 H-24 Z" fill="#FFFFFF" stroke="#37506B" stroke-width="4.5" stroke-linejoin="round"/>
+    <path d="M12 -34 V-18 H28" fill="#D9E6F2" stroke="#37506B" stroke-width="4.5" stroke-linejoin="round"/>
+    <path d="M-14 -6 H18 M-14 6 H18 M-14 18 H6" stroke="#F59E14" stroke-width="7" stroke-linecap="round"/>
+  </g>
+  <path d="M350 366 A40 40 0 0 1 378 350" fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" opacity="0.9"/>
+</g>
+</svg>

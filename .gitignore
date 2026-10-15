@@ -1,0 +1,12 @@
+.venv/
+build/
+dist/
+__pycache__/
+*.pyc
+*.spec
+*.db
+*.xlsx
+*.zip
+ANEXOS/
+_indice/
+lista.txt
